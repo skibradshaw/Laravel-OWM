@@ -1,4 +1,5 @@
 <?php
+use Illuminate\Support\Facades\Route;
 
 Route::group(['prefix' => 'owmapi', 'namespace' => 'Gmopx\LaravelOWM\Http\Controllers'], function() {
 
